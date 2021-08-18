@@ -1,0 +1,29 @@
+.table {
+  width: 900px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 2px 3px 0 gray;
+}
+
+.thead {
+  height: 50px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background-color: deepskyblue;
+}
+
+.tr {
+  height: 50px;
+}
+
+.tbody {
+  font-size: 18px;
+  font-weight: 400;
+  color: gray;
+}
+
+.tbody .tr:nth-child(even) {
+  background: #f0f0f0;
+}
